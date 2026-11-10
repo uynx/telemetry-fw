@@ -4,3 +4,4 @@ result
 build/
 .env
 .env.local
+__pycache__/
