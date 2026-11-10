@@ -1,0 +1,6 @@
+.devenv*
+.direnv
+result
+build/
+.env
+.env.local

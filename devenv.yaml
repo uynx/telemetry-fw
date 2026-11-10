@@ -1,0 +1,6 @@
+inputs:
+  nixpkgs:
+    url: github:cachix/devenv-nixpkgs/rolling
+  freertos:
+    url: github:FreeRTOS/FreeRTOS-Kernel/V11.1.0
+    flake: false
