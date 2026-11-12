@@ -1,6 +1,6 @@
 # telemetry-fw
 
-Telemetry firmware for an ARM Cortex-M3, written in C on FreeRTOS. I built it because a lot of the new grad postings I see are embedded software roles, and I wanted firmware I could build, run and test instead of only pointing at C and C++ on a resume.
+Telemetry firmware for an ARM Cortex-M3, written in C on FreeRTOS. The goal is firmware that can be built, run and tested end to end from one command, interrupts and drivers included, without a physical board.
 
 It runs on the MPS2 AN385 board (Cortex-M3) as QEMU emulates it, so everything here was tested in an emulator and not on a physical board. The drivers talk to the board's registers directly with no vendor HAL: the CMSDK UART, the CMSDK timer, the NVIC and SysTick through FreeRTOS's ARM_CM3 port.
 
